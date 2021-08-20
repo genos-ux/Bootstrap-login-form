@@ -1,0 +1,52 @@
+body{
+    background: #141715;
+    
+}
+
+h2{
+    
+    border-left: darkblue;
+    
+    text-align: center;
+    padding: 7px;
+    color: white;
+    
+    background: darkblue;
+}
+.las{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+input{
+    color: white;
+}
+body > div.container.mt-5.mb-1 > div:nth-child(2) > label{
+    position: relative;
+}
+#pan{
+    position: absolute;
+    right: 5%;
+}
+
+@media screen and (min-width:1000px) {
+    #pan{
+        position: relative;
+        left: 190%;
+    }
+    
+    
+
+    
+}
